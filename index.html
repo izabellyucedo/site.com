@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio do Aluno</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #baa4d49d;
+        }
+
+        .portfolio {
+            width: 300px;
+            background: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        .foto {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            position: absolute;
+            top: -60px;
+            left: 50%;
+            transform: translateX(-50%);
+            border: 4px solid white;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .info {
+            margin-top: 50px;
+        }
+
+        h2 {
+            margin-bottom: 5px;
+        }
+
+        .skills {
+            list-style: none;
+            padding: 0;
+        }
+
+        .skills li {
+            background: #007BFF;
+            color: white;
+            padding: 5px;
+            margin: 5px 0;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        .skills li:hover {
+            transform: translateY(-5px);
+            background: #0056b3;
+        }
+        /* Botão do LinkedIn */
+        .linkedin {
+            display: inline-block;
+            background: #0077B5;
+            color: white;
+            padding: 10px 15px;
+            margin-top: 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .linkedin:hover {
+            background: #005582;
+        }
+
+        /* Rodapé */
+        footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="portfolio">
+        <img src="eu.jpg" alt="Foto do Aluno" class="foto">
+        <div class="info">
+            <h2>izabelly</h2>
+            <p>Área de Interesse: TI / Administração </p>
+            <h3>Habilidades:</h3>
+            <ul class="skills">
+                <li>Pacote Office</li>
+                <li>Hardware</li>
+                <li>Fundamentos de TI</li>
+                <li>Digitação</li>
+            </ul>
+            <h3>Cursos:</h3>
+            <p>Informática Básica - Ubuntu Last Hub</p>
+            <p>Fundamentos de TI - Fundação Bradesco</p>
+        </div>
+        <!-- Botão do LinkedIn -->
+        <a href="https://www.linkedin.com/in/queren-neves/" target="_blank" class="linkedin">LinkedIn</a>
+     <!-- Rodapé -->
+     <footer>
+        Feito com ❤️ por <strong>izabelly</strong>
+    </footer>
+
+</body>
+</html>
